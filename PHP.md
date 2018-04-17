@@ -24,7 +24,7 @@ post : 查询字符串是在post请求的http消息主体中发送的
 单引号不需要考虑对变量的解析,速度比双引号快
 
 ##### Q3:isset和empty和is_null的区别?  
-is_null判断变量是否为NULL     
+is_null判断变量是否为NULL  
 isset 检测变量是否已设置并且非NULL  
 empty     
 * ""(空字符串)
@@ -35,4 +35,13 @@ empty
 - FALSE
 * array()(一个空数组)
 - $var (一个声明了,但是没有值的变量)
+
+##### Q4:echo,print,var_dump()和print_r()的区别?
+1. echo和print  
+共同点 : echo和print都不是函数,是语言结构,只能输出字符串,int,float数据,不能打印复合型和资源型数据  
+区别 : echo 可以连续输出多个变量，而print只能一次输出一个变量。print打印的值能直接复制给一个变量，如 $a = print “123”;  
+2. var_dump()和print_r()  
+共同点 ：两者都可以打印数组，对象之类的复合型变量  
+区别 : print_r()在打印数组时，会将把数组的指针移到最后边，使用 reset() 可让指针回到开始处,显示关于一个变量的易于理解的信息,var_dump显示关于一个或多个表达式的结构信息，包括表达式的类型与值。数组将递归展开值，通过缩进显示其结构。
+
 
