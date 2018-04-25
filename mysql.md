@@ -71,7 +71,7 @@ BINARY,VARBINARY
 DATATIME : 1001-9999年,与时区无关,使用8个字节存储空间 FROM_UNIXTIME()  
 TIMESTAMP : 与unix时间戳相同,使用4个字节的存储空间,1970-2038 UNIX_TIMESTAMP()  
 
-
+### 索引
 ### 索引类型  
 索引在存储引擎层实现的  
 一. B-Tree索引  
