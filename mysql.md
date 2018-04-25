@@ -72,7 +72,8 @@ DATATIME : 1001-9999年,与时区无关,使用8个字节存储空间 FROM_UNIXTI
 TIMESTAMP : 与unix时间戳相同,使用4个字节的存储空间,1970-2038 UNIX_TIMESTAMP()  
 
 ### 索引
-### 索引类型  
+
+#### 索引类型  
 索引在存储引擎层实现的  
 一. B-Tree索引  
     所有值都是按顺序存储,可以用来做order by和group by操作  
