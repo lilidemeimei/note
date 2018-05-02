@@ -100,7 +100,7 @@ empty
 3. 将数据分批处理
 
 ##### Q8:require和include的区别？
-require和include几乎完全一样，除了处理失败的方式不同之外。require在出错时将导致脚本中止，而include只产生警告，脚本会继续运行。
+require和include几乎完全一样，包含并运行指定文件，除了处理失败的方式不同之外。require在出错时将导致脚本中止，而include只产生警告，脚本会继续运行。
 
 
 
