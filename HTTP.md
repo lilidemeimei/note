@@ -1,9 +1,9 @@
 ### 七层协议
-应用层：http，ftp，pop3，dns  
+应用层：http，ftp，pop3，dns ,telnet(远程登录)  
 表示层  
 会话层  
 运输层  
-网络层  
+网络层  ip，icmp（internet控制信息协议），ARP（地址解析协议），RARP（反向地址解析协议）
 数据链路层
 物理层
 
